@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'poppins';
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 4.5rem;
+}
+.countdown-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.5rem;
+}
+.divdois{
+    float: left;
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left: 0;
+
+}
+button {
+   --button_radius: 0.75em;
+   font-size: 10px;
+   font-weight: bold;
+   border: none;
+   border-radius: var(--button_radius);
+  }
+  
+  .button_rosa {
+   display: block;
+   border-radius: var(--button_radius);
+   padding: 0.75em 1.5em;
+   background-color: #ffb6c1;
+   margin-top: 8px;
+   margin-left: 6px;
+  }
+  .button_branco{
+    display: block;
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background-color: rgb(255, 255, 255);
+    margin-top: 6px;
+    margin-left: 6px;
+   }
+   .button_amarelo{
+    display: block;
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background-color: #dfd880;
+    margin-top: 6px;
+    margin-left: 6px;
+    }
+    .button_azul{
+    display: block;
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background-color: #b7d5e5;
+    margin-top: 6px;
+    margin-left: 6px;
+    }
